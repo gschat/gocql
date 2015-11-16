@@ -1,0 +1,22 @@
+{
+    "name":"github.com/gschat/gocql",
+
+    "domain":"golang|gslang",
+
+    "import":[
+        {"name" : "github.com/gsmake/golang","domain":"task","version":"release/v3.0"},
+        {"name" : "github.com/hailocab/go-hostpool","version":"master"},
+        {"name" : "github.com/gschat/inf","version":"master"},
+        {"name" : "github.com/golang/snappy","version":"master"}
+    ],
+
+    "properties":{
+        "gsrpc":{
+            "golang":["github.com/gsrpc/gsrpc","./","./synctest/test.gs"]
+        },
+
+        "gsmake.golang.test" :[
+             {"dir":"./","flags":"-bench . -cpu 4 "}
+       ]
+    }
+}

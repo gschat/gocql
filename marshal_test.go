@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/inf.v0"
+	"github.com/gschat/inf"
 )
 
 type AliasInt int

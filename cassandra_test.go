@@ -19,7 +19,7 @@ import (
 	"time"
 	"unicode"
 
-	"gopkg.in/inf.v0"
+	"github.com/gschat/inf"
 )
 
 var (

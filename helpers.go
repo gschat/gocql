@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/inf.v0"
+	"github.com/gschat/inf"
 )
 
 type RowData struct {
